@@ -1,0 +1,43 @@
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    i {
+      color: green;
+    }
+
+    img {
+      width: 50%;
+      height: 50%;
+    }
+
+    .radio {
+      background-color: brown;
+      color: white;
+      padding: 10px;
+      width: 100%;
+      position: sticky;
+      top: 56px;
+      z-index: 2;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .card-1 {
+      box-shadow: 2px 5px 20px gray;
+      /* margin: 6px; */
+      height: 450px;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    main {
+      width: 100%;
+    }
