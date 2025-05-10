@@ -1462,8 +1462,9 @@ document.getElementById("nextPage").addEventListener("click", () => {
     let newData = allData.slice(count, count + 10);
     document.getElementById("box").innerHTML = "";
     renderAllCards(newData);
+    count += 10;
   }
-  count += 10;
+
   checkPrevNext();
 });
 
